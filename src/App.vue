@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <HeaderComponent />
-    <ItemComponent />
+    <Header />
+    <Item />
   </div>
 </template>
 
 <script>
-import ItemComponent from './components/ItemComponent.vue'
-import HeaderComponent from './components/HeaderComponent.vue'
+import Item from './components/Item.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'app',
   components: {
-    ItemComponent,
-    HeaderComponent
+    Item,
+    Header,
   }
 }
 </script>
